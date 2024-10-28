@@ -1,0 +1,101 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+.gpo-settings-option-inner-wrap {
+    width: 600px;
+    background: #fff;
+    padding: 10px 0;
+}
+.tr-content.p-0-fields-count-wrap {
+    width: 97%;
+    display: inline-block;
+}
+.tr-content.p-0-fields-ttl-wrap {
+    width: 58%;
+    display: inline-block;
+}
+.tr-content.p-0-fields-price-wrap {
+    width: 38%;
+    display: inline-block;
+}
+.tr-content.p-0-fields-count-wrap{background: #fff;}
+.gpo-settings-price-option-row {background: #f9f9f9}
+.gpo-settings-price-option-row.offsetRow {background: #fff}
+.tr-content.p-0-fields-count-wrap, .gpo-settings-price-option-row {    
+    padding: 6px 1.5%;
+    border-bottom: solid 1px rgb(225, 225, 225);
+}
+.gpo-settings-title input {
+    width: 94%;
+}
+/* Categories treeview */
+ul.gpo-cat-list {
+    background: #fff;
+    padding: 20px;
+}
+ul.gpo-cat-list ul {
+    margin: 0 0 0px 30px;
+}
+ul.gpo-cat-list li ul {
+ display: none;
+}
+span.gpo-cat-list-child-sign {
+    display: inline-block;
+    margin-right: 3px;
+    padding: 0 3px;
+    border: solid 1px #cbd3dc;
+    cursor: pointer;
+    line-height: 16px;
+    vertical-align: bottom;
+    color: #91969c;
+    width: 8px;
+    font-weight: 700;
+    text-align: center;
+}
+span.gpo-cat-list-child-sign:hover {
+    background: #cbd3dc;
+}
+span.gpo-cat-list-child-sign-empty {
+    display: inline-block;
+    margin-right: 22px;
+}
+a.atr-cats-select-actions {
+    display: inline-block;
+    padding: 4px;
+    margin: 0 3px;
+}
+.gpo-settings-price-option-row a.remove_button img {
+    vertical-align: bottom;
+    padding: 0px 0 0 4px;
+}
+
+.gpo-settings-price-option-row a.remove_button {
+    display: inline-block;
+    vertical-align: sub;
+}
+
+.gpo-settings-option-inner-wrap a.add_button {
+    display: block;
+	padding: 7px 0 0 5px;
+}
+.gpo-settings-option-inner-wrap a.add_button img {
+    display: inline-block;
+    vertical-align: middle;
+}
+.gpo-settings-option-inner-wrap a.add_button span {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.th-content.gpo-settings-th-list-control-label {
+    width: 25%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 0 0 10px;
+}
+.tr-content.list-control-label-wrapper .td-content.td-content-ttl {
+    width: 70%;
+    display: inline-block;
+}
